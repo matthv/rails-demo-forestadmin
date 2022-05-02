@@ -29,7 +29,7 @@ set your database connection (DB section)
 
 ### migrate & seed
 ```
-rails db:migrate
+rails db:migrate && rails db:seed
 ```
 
 ## Serving Rails
