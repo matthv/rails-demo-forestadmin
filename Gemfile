@@ -47,7 +47,7 @@ gem "bootsnap", require: false
 
 gem 'devise'
 gem 'pg'
-gem 'forest_liana', path: '/Users/matthieuvideaud/Sites/agents/in-app/forest-rails'
+gem 'forest_liana'
 
 gem 'omniauth-rails_csrf_protection'
 gem 'omniauth-google-oauth2'
