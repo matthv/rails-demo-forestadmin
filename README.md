@@ -26,6 +26,7 @@ bundle install
 cp .env.example .env
 ```
 set your database connection (DB section)
+By default it's a postgres db
 
 ### migrate & seed
 ```
