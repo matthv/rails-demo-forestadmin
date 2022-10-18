@@ -3,6 +3,7 @@ class CreateProducts < ActiveRecord::Migration[7.0]
     create_table :products do |t|
       t.decimal :price
       t.text :label
+      t.uuid :key
 
       t.timestamps
     end
