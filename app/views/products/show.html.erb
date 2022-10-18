@@ -1,0 +1,16 @@
+<main class="container">
+    <%= link_to sanitize("&larr; Back to products"), products_path %>
+    <div class="header">
+        <h1>
+            <%= @product.label %>
+        </h1>
+        key :  <%= @product.key %>
+        <br />
+        price :  <%= @product.price %>
+        <br />
+        file :
+        <% if @product.file.attached? %>
+            <%= @product.file.to_s %>
+        <% end %>
+    </div>
+</main>
